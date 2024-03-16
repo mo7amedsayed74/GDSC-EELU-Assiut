@@ -21,14 +21,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.brown,
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.brown,
           leading: const Icon(Icons.menu),
           title: const Text('First App'),
           centerTitle: true,
           actions: const [
-            Icon(Icons.menu),
             Icon(Icons.menu),
             Icon(Icons.search),
           ],
@@ -44,15 +43,14 @@ class MyApp extends StatelessWidget {
         //     Text('GDSC'),
         //   ],
         // ),
-        body: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-          ],
+        body: const Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text('Mohamed'),
+              Text('GDSC'),
+            ],
+          ),
         ),
       ),
     );
