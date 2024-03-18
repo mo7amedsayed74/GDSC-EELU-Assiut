@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:gdsc_assiut/second_screen(session%202).dart';
 void main(){
   runApp(const MyApp());
 }
@@ -18,43 +18,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Colors.brown,
-        appBar: AppBar(
-          backgroundColor: Colors.orange,
-          leading: const Icon(Icons.menu),
-          title: const Text('First App'),
-          centerTitle: true,
-          actions: const [
-            Icon(Icons.menu),
-            Icon(Icons.menu),
-            Icon(Icons.search),
-          ],
-        ),
-        // body: const Column(
-        //   //mainAxisAlignment: MainAxisAlignment.center,
-        //   //crossAxisAlignment: CrossAxisAlignment.end,
-        //   children: [
-        //     Text('GDSC'),
-        //     Text('GDSC'),
-        //     Text('GDSC'),
-        //     Text('GDSC'),
-        //     Text('GDSC'),
-        //   ],
-        // ),
-        body: const Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-            Text('GDSC'),
-          ],
-        ),
-      ),
+      home: SecondScreen(),
     );
   }
 }
