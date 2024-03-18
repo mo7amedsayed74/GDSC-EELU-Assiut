@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
 
+/*
+SizedBox
+container
+padding
+center
+image >> network , asset
+circle
+drawer
+ */
+
 class SecondScreen extends StatelessWidget {
   const SecondScreen({super.key});
 
@@ -103,13 +113,3 @@ class SecondScreen extends StatelessWidget {
     );
   }
 }
-
-/*
-SizedBox
-container
-padding
-center
-image >> network , asset
-circle
-drawer
- */

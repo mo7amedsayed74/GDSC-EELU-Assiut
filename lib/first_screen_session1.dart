@@ -1,6 +1,14 @@
-
 import 'package:flutter/material.dart';
 
+// stateless
+// stateful
+
+// icon
+// text
+// column
+// row
+
+// returnType name (){}
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
 

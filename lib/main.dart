@@ -1,18 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:gdsc_assiut/second_screen(session%202).dart';
+import 'package:gdsc_assiut/second_screen_session2.dart';
 void main(){
   runApp(const MyApp());
 }
 
-// stateless
-// stateful
-
-// icon
-// text
-// column
-// row
-
-// returnType name (){}
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
